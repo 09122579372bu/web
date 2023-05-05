@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.vazir{
+    font-family: 'vazir';
+}
+header{
+    background-color: gray;
+    width:100%;
+    height:50px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    filter: opacity(70%);
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+     margin-right:20px;
+     font-size: 12px;
+     color:#fff;
+     padding: 17px;
+     transition: 0.3s;
+     font-family: 'vazir';
+}
+ul{
+    display: flex;
+}
+a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.bg{
+    height: 500px;
+    background-image:url(https://files.virgool.io/upload/users/182900/posts/zangiiyhdehv/tfv0ole923op.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.one-project{
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: blueviolet;
+    width:250px;
+    color: lightslategray;
+    box-shadow:5px 5px 7px rgb(35, 58, 35);
+}
+.proje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80%;
+    filter: opacity(80%);
+}
+.content{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 250px;
+}
+.left img{
+    width: 230px;
+    height: 150px;
+}
+.right{
+    width: 40%;
+    
+}
+.right p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+.card{
+    width: 100%;
+    height: 300px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.body-card{
+    width: 30%;
+    height: 180px;
+    display: flex;
+    background-color: darkgray;
+    box-shadow: 0 3px 10px rgb(99, 99, 99);
+}
+.card-right{
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.card-left{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-left img{
+    width: 100%;
+}
+.card-right p{
+    font-size:12px ;
+}
+
+.members{
+    width: 100%;
+    height: 300px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+.body-members{
+    width: 20%;
+    height: 200px;
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgb(99, 99, 99);
+}
+.body-members img{
+    width: 100%;
+    text-align: center;
+}
+.body-members p{
+    font-size: 12px;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.desc{
+    width: 30%;
+    font-size: 12px;
+    text-align: justify;
+}
